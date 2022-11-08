@@ -8,7 +8,6 @@ import (
 )
 
 var filepath string
-var filepath1 string
 
 func main() {
 	flag.StringVar(&filepath, "t", "target", "文件路径，默认为空")
